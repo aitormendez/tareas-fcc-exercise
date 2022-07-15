@@ -1,0 +1,38 @@
+.tarea-contenedor {
+  width: 500px;
+  min-height: 65px;
+  background-color: rgb(43, 43, 43);
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tarea-contenedor.completada {
+  background-color: rgb(6, 120, 85);
+  text-decoration: line-through;
+}
+
+.tarea-texto {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-size: 2rem;
+  overflow-wrap: anywhere;
+}
+
+.tarea-icono {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.tarea-icono svg {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
